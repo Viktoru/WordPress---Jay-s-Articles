@@ -34,6 +34,7 @@ function jay_table_install() {
 		body longtext NOT NULL,
 		title mediumtext NOT NULL,
 		url varchar(55) DEFAULT '' NOT NULL,
+		author VARCHAR(1000) NOT NULL,
 		PRIMARY KEY  (id)
 	) $charset_collate;";
 
@@ -47,8 +48,9 @@ function jay_table_install_data() {
   global $wpdb;
 
   $welcome_body = 'Gasic, K., Jung, S., Cheng, C.H., Lee, T., Zheng, P., Yu, J., Humann, J., Evans, K., Peace, C., DeVetter, L., Mcferson, J., Coe, M.I. and Main, D. Resources in the Genome Database for Rosaceae for Peach Research. Acta Horticulturae (in press).';
-  $welcome_title = 'Resources in the Genome Database for Rosaceae for Peach Research...';
+  $welcome_title = 'AgBioData consortium recommendations for sustainable genomics and genetics databases for agriculture ';
   $welcome_url = 'http://www.intillajta.org';
+  $welcome_author = 'Lisa Harper  Jacqueline Campbell  Ethalinda K S Cannon  Sook Jung Monica Poelchau  Ramona Walls  Carson Andorf  Elizabeth Arnaud  Tanya Z Berardini Clayton Birkett  Steve Cannon  James Carson  Bradford Condon  Laurel Cooper Nathan Dunn  Christine G Elsik  Andrew Farmer  Stephen P Ficklin  David Grant Emily Grau  Nic Herndon  Zhi-Liang Hu  Jodi Humann  Pankaj Jaiswal  Clement Jonquet Marie-Angélique Laporte  Pierre Larmande  Gerard Lazo  Fiona McCarthy  Naama Menda Christopher J Mungall  Monica C Munoz-Torres  Sushma Naithani  Rex Nelson Daureen Nesdill  Carissa Park  James Reecy  Leonore Reiser  Lacey-Anne Sanderson Taner Z Sen  Margaret Staton  Sabarinath Subramaniam  Marcela Karey Tello-Ruiz Victor Unda  Deepak Unni  Liya Wang  Doreen Ware  Jill Wegrzyn  Jason Williams Margaret Woodhouse  Jing Yu  Doreen Main';
 
   $table_name = $wpdb->prefix . '__jay_table';
 
@@ -59,6 +61,7 @@ function jay_table_install_data() {
       'body' => $welcome_body,
       'title' => $welcome_title,
       'url' => $welcome_url,
+      'author' => $welcome_author,
     )
   );
 }
