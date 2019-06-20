@@ -48,6 +48,7 @@ function jay_table_install_data() {
 
   $welcome_body = 'Gasic, K., Jung, S., Cheng, C.H., Lee, T., Zheng, P., Yu, J., Humann, J., Evans, K., Peace, C., DeVetter, L., Mcferson, J., Coe, M.I. and Main, D. Resources in the Genome Database for Rosaceae for Peach Research. Acta Horticulturae (in press).';
   $welcome_title = 'Resources in the Genome Database for Rosaceae for Peach Research...';
+  $welcome_url = 'http://www.intillajta.org';
 
   $table_name = $wpdb->prefix . '__jay_table';
 
@@ -57,6 +58,7 @@ function jay_table_install_data() {
       'time' => current_time( 'mysql' ),
       'body' => $welcome_body,
       'title' => $welcome_title,
+      'url' => $welcome_url,
     )
   );
 }
