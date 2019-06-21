@@ -15,6 +15,9 @@
  * Author URI: http://www.intillajta.org
  **/
 
+
+
+
 defined( 'ABSPATH') or die('Hello, you are not allow to work here');
 
 global $jal_db_version;
