@@ -1,8 +1,14 @@
-# Wordpress: PART I
-You can install and uninstall table/tables into your mySQL database. I have included dummy data.
+#Wordpress: PART I
 
+Welcome to the Plugin jay_table.
 
-## The second part
+This plugin can install a table with three fields.
 
-Second part should demonstrate retrieving data and displaying the data.
+## Below should be what you looking for
+
+![ScreenShot](https://{url})
+
+## This plugin for jay's article will display a url, title of the article and content of the article for sciences.
+
+I have a second plugin to retrieve this data and display the data as a science article. 
 
