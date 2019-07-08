@@ -2,7 +2,7 @@
 
 Welcome to the Plugin jay_table.
 
-This plugin can install a table with three fields.
+This plugin can install a table with time, body, title, author and url fields.
 
 ## Below should be what you looking for
 
