@@ -1,4 +1,4 @@
-#Wordpress: PART I
+# WordPress: PART I
 
 Welcome to the Plugin jay_table.
 
