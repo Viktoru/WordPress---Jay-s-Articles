@@ -5,6 +5,9 @@
  * Date: 6/17/19
  * Time: 9:37 AM
  */
+/**
+ * @package jay_table-plugin
+ */
 
 /**
  * Plugin Name: Jay's Articles - MySQL Database.
@@ -17,6 +20,7 @@
  * Text Domain: jay_table-plugin
  **/
 
+require_once ( plugin_dir_path( __FILE__ ) . 'jay_table_main.php' );
 define('WP_DEBUG', TRUE);
 
 // If this file is called directly, die.
