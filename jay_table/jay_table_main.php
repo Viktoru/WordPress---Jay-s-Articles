@@ -5,19 +5,9 @@
  * Date: 7/9/19
  * Time: 1:36 PM
  */
-
 /**
- * Plugin Name: VU ADMIN.
- * Plugin URI: http://wordpress.dataprogram.info/wp-admin/plugins.php
- * Description: A lis of Articles.
- * Version: 1.0
- * Author: Victor P. Unda
- * Author URI: http://www.intillajta.org
- * License: GPLv2 or later
- * Text Domain: vu_admin-plugin
- **/
-
-define('WP_DEBUG', TRUE);
+ * @package jay_table-plugin
+ */
 
 // If this file is called directly, die.
 defined( 'ABSPATH' ) or die('Restricted Area');
