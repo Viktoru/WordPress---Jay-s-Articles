@@ -26,7 +26,7 @@ function extra_post_info_page(){
   $db_result = $wpdb->get_results("SELECT * FROM $table_name");
   if(count($db_result) == 0)
   {
-    echo "No data. Install the plugin jay_table.";
+    echo "No data.";
   }
   else {
 
