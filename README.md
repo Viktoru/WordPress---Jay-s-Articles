@@ -11,3 +11,6 @@ This plugin can install a table & add the fields: time, body, title, author and 
 ## Results
 
 ![ScreenShot](https://github.com/Viktoru/WordPress---Jay-s-Articles/blob/master/jay_table/Screen3.png)
+
+![ScreenShot](https://github.com/Viktoru/WordPress---Jay-s-Articles/blob/master/jay_table/screen2.png)
+
