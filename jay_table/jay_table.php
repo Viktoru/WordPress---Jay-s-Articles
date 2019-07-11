@@ -21,6 +21,7 @@
  **/
 
 require_once ( plugin_dir_path( __FILE__ ) . 'jay_table_main.php' );
+
 define('WP_DEBUG', TRUE);
 
 // If this file is called directly, die.
